@@ -1,20 +1,17 @@
  @charset "utf-8";
  /* CSS Document */
  p {
-     color: green;
+     color: darkcyan;
 	 font-family: Constantia, "Lucida Bright", "DejaVu Serif", Georgia, "serif";
 	 font-size: 16px;
 	 line-height: 18px;
 	 width: 600px;
-	 background-color: beige;
-	 padding: 20px;
+	 background-color: rgba(255, 255, 255, 0.5)
+	 padding: 30px;
  }
- .paragraf_2 {color:darkcyan; background-color: rgba(255, 255, 255, 0.5)} 
- .novi_blok {
-	 background-color: rgba(255, 255, 255, 0.9);
-	 padding: 20px;
-	 margin: 20px;
-	 width: 50%
+ .paragraf_2 {color:darkcyan; background-color: rgba(255, 255, 255, 0.5)
+              padding: 30px;  } 
+ 
  }
 h1, h2 {
 	 font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
@@ -23,11 +20,11 @@ h1, h2 {
  
  span {color: rgb(255, 0, 255);}
  body {
-	  background-image: url("slike/4.jpg");
+	  background-image: url("pozadina.jpg");
  }
 a:link {
 	color: black;
-	background-color: white;
+	background-color: light pink;
 	padding: 5px;
 	line-height: 40px;
 	border:1px solid #;
@@ -38,3 +35,4 @@ a:hover{
 img{
 	height: 300px;
 }
+
